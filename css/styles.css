@@ -472,10 +472,19 @@ body {
   background-repeat: no-repeat;
 }
 
+.button-logo:hover,
+.button-logo:focus {
+  border-color: var(--accent-color);
+}
+
 .button-icon {
   width: 40px;
   height: 40px;
-  fill: ;
+}
+
+.button-icon:hover,
+.button-icon:focus {
+  fill: var(--accent-color);
 }
 
 .container.our-clients {
