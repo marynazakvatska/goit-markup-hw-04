@@ -475,6 +475,7 @@ body {
 .button-logo:hover,
 .button-logo:focus {
   border-color: var(--accent-color);
+  background-color: #ffffff;
 }
 
 .button-icon {
