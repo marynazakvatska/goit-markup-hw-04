@@ -20,13 +20,14 @@
 
   <body>
     <!--header-->
+    
     <header class="page-header">
       <div class="container main-nav">
         <nav class="main-nav">
           <a href="./index.html" class="logo-studio"><span class="web"> Web</span>Studio
           </a>
           <ul class="site-nav list">
-            <li class="item"><a href="./index.html" class="link">Студия</a></li>
+            <li class="item"><a href="./index.html" class="link ">Студия</a></li>
             <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
             <li class="item"><a href="" class="link">Контакты</a></li>
           </ul>
@@ -34,10 +35,21 @@
         <address class="headdress">
           <ul class="contacts list">
             <li class="item">
-              <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+              <a class="link icon-mail" href="mailto:info@devstudio.com">
+                <svg class="icon-mail" width="16px" height="12px">
+                  <use href="./images-psevdoelements/symbol-defs.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
             </li>
+    
             <li class="item">
-              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+              <a class="link icon-tel" href="mailto:info@devstudio.com">
+                <svg class="icon-tel" width="10px" height="16px">
+                  <use href="./images-psevdoelements/symbol-defs.svg#icon-Vector"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
             </li>
           </ul>
         </address>
@@ -174,15 +186,54 @@
         </div>
       </section>
     </main>
-    <!--address-->
-    <footer class="footer">
-      <div class="container">
+  <!--address-->
+  <footer class="footer ">
+    <div class="container footer-address">
+      <div class="div-address">
         <a class="logo-studio address" href=""><span class="web">Web</span>Studio</a>
         <address>
           <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
           <a class="address-contacts mail" href="mailto:info@example.com">info@example.com</a><br />
           <a class="address-contacts" href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
-    </footer>
+      </div>
+  
+      <div class="joing">
+        <span class="invitation">присоединяйтесь</span>
+        <ul class="social invit">
+          <li class="social-list invit">
+            <a class="icon-social-link invit" href="">
+              <svg class="icon-social invit" width="20px" height="20px">
+                <use href="./images-psevdoelements/symbol-defs.svg#icon-instagram-21"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list invit">
+            <a class="icon-social-link invit" href="">
+              <svg class="icon-social invit" width="20px" height="20px">
+                <use href="./images-psevdoelements/symbol-defs.svg#icon-twitter-11"></use>
+              </svg>
+            </a>
+          </li>
+          </li>
+          <li class="social-list invit">
+            <a class="icon-social-link invit" href="">
+              <svg class="icon-social invit" width="20px" height="20px">
+                <use href="./images-psevdoelements/symbol-defs.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list invit">
+            <a class="icon-social-link invit" href="">
+              <svg class="icon-social invit" width="20px" height="20px">
+                <use href="./images-psevdoelements/symbol-defs.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+  </footer>
+  
   </body>
-</html>
+  
+  </html>

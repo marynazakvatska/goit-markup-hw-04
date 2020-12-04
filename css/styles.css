@@ -51,39 +51,32 @@ body {
   text-decoration: none;
 }
 
-.icon-mail::before {
-  display: inline-flex;
-  content: "";
-  width: 16px;
-  height: 12px;
+.icon-mail {
+  display: flex;
   margin-right: 10px;
-  background-image: url(../images-psevdoelements/envelope.svg);
-  background-size: contain;
-}
-
-.link.icon-mail:hover::before,
-.link.icon-mail:focus::before {
-  color: var(--accent-color);
-}
-
-.icon-tel::before {
-  display: inline-flex;
-  content: "";
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  background-image: url(../images-psevdoelements/Vector.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
+}
+
+.link.icon-mail:hover {
+  fill: var(--accent-color);
+}
+
+.icon-tel {
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.link.icon-tel:hover {
+  fill: var(--accent-color);
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
-  outline: solid 1px red;
 }
 
 .flex-container {
@@ -522,6 +515,7 @@ body {
 /*invitation*/
 .invitation {
   display: inline-block;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.03em;
@@ -542,11 +536,18 @@ body {
   fill: #ffffff;
 }
 
+.container.footer-address {
+  display: flex;
+}
+
+.div-address {
+  margin-right: 70px;
+}
+
 .joing {
   display: inline-block;
   padding: 0;
-  margin: 0;
-  outline: solid 1px red;
+  margin-top: 12px;
 }
 
 .social.invit {
@@ -554,8 +555,3 @@ body {
   padding: 0;
   margin: 0;
 }
-
-/*.div {
-  outline: solid 1px red;
-}
-*/
