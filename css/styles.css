@@ -216,6 +216,10 @@ body {
   overflow: hidden;
 }
 
+.features {
+  padding-top: 94px;
+}
+
 .features-title {
   color: var(--title-text-color);
   font-size: 14px;
@@ -233,7 +237,6 @@ body {
 
 .list.features-items {
   display: flex;
-  margin-top: 94px;
 }
 .feature-element:not(:last-child) {
   margin-right: 30px;
